@@ -61,8 +61,8 @@ body {
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    animation: fade 10s infinite; /* Base animation */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ensure hover still works */
+    animation: fade 10s infinite; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .img-box img:nth-child(1) {
@@ -81,7 +81,7 @@ body {
     animation-delay: 8s;
 }
 
-/* Fade animation */
+
 @keyframes fade {
     0% {
         opacity: 0;
