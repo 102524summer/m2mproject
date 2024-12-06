@@ -135,3 +135,11 @@ p {
     transform: scale(1.1);  
     box-shadow: 0 6px 30px rgba(0, 255, 204, 0.8);  
 }
+
+a {
+    text-decoration: none; /* Removes the underline from links */
+}
+
+a:hover {
+    text-decoration: none; /* Ensures underline is also removed on hover */
+}
