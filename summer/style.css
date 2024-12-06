@@ -117,7 +117,7 @@ p {
 
 #btn-home {
     margin-top: 20px;
-    background: linear-gradient(90deg, #4b0082, #8a2be2, #00ffcc);
+    background: linear-gradient(90deg, #4295c3, #bf71db, #ff7fb8, #d8782e, #d11a14);
     color: white;
     border: none;
     padding: 12px 30px;
@@ -131,7 +131,7 @@ p {
 }
 
 #btn-home:hover {
-    background: linear-gradient(90deg, #00ffcc, #8a2be2, #4b0082);
-    transform: scale(1.1);
-    box-shadow: 0 6px 30px rgba(0, 255, 204, 0.8);
+    background: linear-gradient(90deg, #4295c3, #bf71db, #ff7fb8, #d8782e, #d11a14);
+    transform: scale(1.1);  
+    box-shadow: 0 6px 30px rgba(0, 255, 204, 0.8);  
 }
