@@ -6,12 +6,15 @@
 
 body {
     font-family: 'Orbitron', sans-serif;
-    background-color: #1a1a1a;
+    background: url('../images-norm/sterren.gif') no-repeat center center fixed;
+    background-size: cover; 
     color: #e0e0e0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .main {
@@ -23,8 +26,8 @@ body {
     font-size: 32px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #00ffcc;
-    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
 }
 
 .grid {
@@ -110,8 +113,8 @@ body {
 p {
     margin-top: 10px;
     font-size: 16px;
-    color: #e0e0e0;
-    text-shadow: 0 0 2px #999;
+    color: #00ffcc;
+    text-shadow: 0 0 2px #00ffcc;
     text-transform: uppercase;
 }
 
@@ -137,9 +140,9 @@ p {
 }
 
 a {
-    text-decoration: none; /* Removes the underline from links */
+    text-decoration: none; 
 }
 
 a:hover {
-    text-decoration: none; /* Ensures underline is also removed on hover */
+    text-decoration: none; 
 }
